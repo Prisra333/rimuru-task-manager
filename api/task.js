@@ -1,7 +1,7 @@
 
 const crypto = require('crypto');
 
-const API_KEY = process.env.API_KEY || 'rimuru-task-2026';
+const API_KEY = 'rimuru-task-2026';
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK || '';
 
 // インメモリストレージ（Vercel再起動でリセット）
